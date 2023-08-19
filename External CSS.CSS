@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>This is an external CSS example</h1>
+    <p>Here is some text that will be styled by the external CSS file.</p>
+</body>
+</html>
+body {
+    background-color: lightblue;
+}
+
+<h1> {
+    color: navy;
+    margin-left: 20px;
+}
+
+<p> {
+    font-family: verdana;
+    font-size: 20px;
+}

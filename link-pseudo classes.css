@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Link Pseudo-classes using External CSS</h1>
+    <p>Here is an example of how you can use external CSS to format links on your page:</p>
+    <ul>
+        <li><a href="#">Link 1</a></li>
+        <li><a href="#">Link 2</a></li>
+        <li><a href="#">Link 3</a></li>
+    </ul>
+</body>
+</html>
+a:link {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:link {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
